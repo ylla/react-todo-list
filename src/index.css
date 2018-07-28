@@ -1,6 +1,6 @@
 body {
 	align-items: center;
-	background: hsl(350, 90%, 67%);
+	background: hsl(184, 82%, 58%);
 	display: flex;
 	font-family: sans-serif;
 	font-size: 3rem;
@@ -21,7 +21,7 @@ input, button {
 }
 
 h1 {
-	background: hsla(195, 80%, 90%, 1);
+	background: rgb(9, 194, 255);
 	font-size: 3rem;
 	padding: 2rem;
 }
@@ -38,9 +38,12 @@ ul li {
 }
 
 ul li:hover {
-	background: #eee;
+	background: rgb(133, 226, 238);
 }
 
+/* Inside a ul we have a li and it has a class complete.
+What we want to tell is that if the 
+*/
 ul li.complete {
 	text-decoration: line-through;
 }
